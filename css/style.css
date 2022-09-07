@@ -1,0 +1,20 @@
+h1{
+   margin-bottom: 20px;
+}
+#rainbow-block{
+   /* display: inline-block; */
+   height: 100px;
+   /* width: 700px; */
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(208,0,0,1) 0%, rgba(244,140,6,1) 13%, rgba(252,243,0,1) 26%, rgba(43,147,72,1) 39%, rgba(72,202,228,1) 52%, rgba(3,4,94,1) 65%, rgba(114,9,183,1) 78%, rgba(255,203,242,1) 91%);
+}
+#horn-block{
+   position: relative;
+   bottom: 40px;
+   left: 100px;
+   width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #495057;
+}
